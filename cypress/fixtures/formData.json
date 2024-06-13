@@ -1,0 +1,41 @@
+  {
+    "dataSet1": {
+       "name": "Naz",
+    "email": "naz@gmail.com",
+      "phone": "+77017730746",
+      "subject": "Booking",
+       "message": "Dear Shady Meadows, I am interested in booking a room."
+      },
+    "dataSet2": {
+      "name": "Alice O'Connor",
+      "email": "alice.o'connor@example.com",
+      "phone": "+1234567890",
+      "subject": "Feedback & Inquiry",
+      "message": "I'd like to provide some feedback & inquire about your services."
+    },
+  
+    "textAssertions": {
+      "successMessage": "Thanks for getting in touch {name}!",
+      "infoMessage": "We'll get back to you about",
+      "asapMessage": "as soon as possible."
+    },
+    
+      "errorMessages": {
+        "blankEmail": "Email may not be blank",
+        "invalidEmail": "must be a well-formed email address",
+        "blankSubject": "Subject may not be blank",
+        "shortSubject": "Subject must be between 5 and 100 characters.",
+        "blankMessage": "Message may not be blank",
+        "shortMessage": "Message must be between 20 and 2000 characters.",
+        "blankName": "Name may not be blank",
+        "shortPhone": "Phone must be between 11 and 21 characters.",
+        "blankPhone": "Phone may not be blank"
+      },
+      "lowerBoundaryValues": {
+          "name": "A",
+          "email": "a@a.a",
+          "phone": "1234567890",
+          "subject": "Hi",
+          "message": "Short message"
+        }
+  }

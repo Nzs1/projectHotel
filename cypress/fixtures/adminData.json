@@ -1,0 +1,25 @@
+{
+  "checkboxFeatures": [
+    "wifiCheckbox",
+    "tvCheckbox",
+    "radioCheckbox",
+    "refreshCheckbox",
+    "safeCheckbox",
+    "viewsCheckbox"
+  ],
+  "errorMessages": {
+    "emptyFields": [
+      "Room name must be set",
+      "must be greater than or equal to 1"
+    ]
+  },
+  "updateRoomData": {
+    "description": "This room refers to a specific space within a hotel, designed to accommodate guests during their stay.",
+    "type": "Double"
+  },
+  "createRoomData": {
+    "roomNumber": "102",
+    "type": "Suite",
+    "roomPrice": "250"
+  }
+}
